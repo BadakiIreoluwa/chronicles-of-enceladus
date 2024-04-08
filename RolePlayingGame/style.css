@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+:root {
+  --black: #080708;
+  --oxford: #001d3d;
+  --white: #fcfcfc;
+  --orange: #ffba08;
+  --dark-orange: #f48c06;
+  --red: #d90429;
+  --green: #16db65;
+  --yellow: #ffee32;
+  --blue: #00a8e8;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+body {
+  background-image: url("https://images2.imgbox.com/2a/31/mE3x8X9z_o.jpeg");
+  background-color: var(--black);
+  font-family: 'Pixelify Sans', 'Courier New', Courier, monospace;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  color: var(--dark-orange);
+  background-color: var(--black);
+  border: 3px solid var(--dark-orange);
+  font-family: 'Pixelify Sans', 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+button:hover, button:active {
+  color: var(--orange);
+  border-color: var(--orange);
+}
+
+#text {
+  background-color: var(--oxford);
+  color: var(--white);
+  border: 2px solid var(--white);
+  padding: 10px;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: var(--black);
+  color: var(--white);
+  border: 5px solid var(--white);
+  margin: 30px auto 0;
+  padding: 10px;
+}
+
+#controls,
+#stats {
+  border: 2px solid var(--white);
+  padding: 5px;
+  color: var(--white);
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid var(--white);
+  padding: 5px;
+  color: var(--white);
+  background-color: var(--red);
+}
+
+#xpText {
+  color: var(--blue);
+}
+
+#healthText {
+  color: var(--green);
+}
+
+#goldText {
+  color: var(--yellow);
+}
